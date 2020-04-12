@@ -1,0 +1,17 @@
+{
+    "name": "Tell Me",
+    "short_name": "TM",
+    "description": "Aplicacion para hablar",
+    "background_color": "#FCE500",
+    "theme_color": "#D35400",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-MX",
+    "icons": [{
+        "src": "img/logo.svg",
+        "sizes": "683x683",
+        "type": "image/png"
+    }]
+}

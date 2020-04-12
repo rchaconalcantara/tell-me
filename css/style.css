@@ -1,0 +1,41 @@
+body {
+    background-color: #AED6F1;
+}
+
+.start {
+    border-radius: 100%;
+}
+
+#menu {
+    display: none;
+}
+
+.logo {
+    padding: 100px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    border: 5px solid #2196F3;
+    box-shadow: 0px 3px 3px black;
+    border-radius: 100%;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+#audio {
+    display: none;
+}
+
+.recording {
+    animation: mover .2s .2s alternate infinite;
+}
+
+@keyframes mover {
+    from {
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(0.8);
+    }
+}

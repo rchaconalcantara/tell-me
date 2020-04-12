@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="icon" href="img/logo.png" sizes="512x512">
+    <title>Tell Me</title>
+    <link rel="shortcut icon" rel="image/png" href="img/logo.png">
+    <link rel="apple-touch-icon" rel="image/png" href="img/logo.png">
+    <link rel="apple-touch-status-image" rel="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="manifest" href="manifest.json">
+    <script src="js/app.js"></script>
+</head>
+
+<body class="animated fadeIn">
+
+    <center>
+        <div id="start" class="animated">
+            <img src="img/logo.png" alt="Welcome" width="30%" class="animated tada logo" id="logo">
+        </div>
+    </center>
+
+    <div id="menu" class="content mt-5">
+        <div class="row justify-content-center mt-5">
+            <div class="col-10 mb-5">
+                <button class="btn btn-primary btn-block" id="go_back">Pagina de inicio.</button>
+            </div>
+            <div class="col-4 col-sm-6">
+                <a href="">
+                    <img src="img/post.svg" alt="Welcome" width="80%" class="animated tada">
+                </a>
+            </div>
+            <div class="col-4 col-sm-6">
+                <a href="">
+                    <img src="img/people.svg" alt="Welcome" width="80%" class="animated tada">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <audio id="audio" controls>
+        <source type="audio/wav" src="songs/click.wav">
+    </audio>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
